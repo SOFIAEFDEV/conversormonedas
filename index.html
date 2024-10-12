@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de Moneda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Convertidor de Moneda</h1>
+<div>
+    <label for="amount">Monto:</label>
+    <input type="number" id="amount" placeholder="Ingresa el monto">
+</div>
+<div>
+    <label for="fromCurrency">De:</label>
+    <input type="text" id="fromCurrency" placeholder="Moneda origen (ej. USD)">
+</div>
+<div>
+    <label for="toCurrency">A:</label>
+    <input type="text" id="toCurrency" placeholder="Moneda destino (ej. EUR)">
+</div>
+<button onclick="convertCurrency()">Convertir</button>
+<h2 id="result"></h2>
+
+<script src="script.js"></script>
+</body>
+</html>
